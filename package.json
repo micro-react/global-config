@@ -1,13 +1,13 @@
 {
   "name": "global-config",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": "https://github.com/micro-react/global-config.git",
   "author": "iWuzhi <2461358597@qq.com>",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "build:dev": "tsc && cp -r ./dist ../mock-cdn-server/global-config"
+    "build:dev": "tsc && cp -r ./lib ./dist && cp -r ./dist/* ../mock-cdn-server/global-config"
   },
   "devDependencies": {
     "typescript": "^4.0.2"
