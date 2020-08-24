@@ -9,13 +9,13 @@ export default [
     options: {
       'react': 'React'
     },
-    cdn: '/lib/react/umd/react/react.development.js'
+    cdn: '/global-config/lib/react/umd/react.development.js'
   },
   {
     name: 'react-dom',
     options: {
       'react-dom': 'ReactDOM'
     },
-    cdn: '/lib/react-dom/umd/react-dom.development.js'
+    cdn: '/global-config/lib/react-dom/umd/react-dom.development.js'
   }
 ]
